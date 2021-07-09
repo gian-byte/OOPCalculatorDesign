@@ -31,6 +31,25 @@ namespace TicTacToe
                 player = true;
             else
                 player = false;
+            bool wincondition = false;
+            if (((TopLeft.Text == UpperMiddle.Text) && (UpperMiddle.Text == UpperRight.Text)) && UpperRight.Enabled == false)
+                wincondition = true;
+            if ((LeftMid.Text == Middle.Text) && (Middle.Text == MiddleRight.Text))
+                wincondition = true;
+            if (((BottomLeft.Text == LowerMiddle.Text) && (LowerMiddle.Text == BottomRight.Text)) && BottomRight.Enabled == false)
+                wincondition = true;
+            if (((TopLeft.Text == LeftMid.Text) && (LeftMid.Text == BottomLeft.Text)) && BottomLeft.Enabled == false)
+                wincondition = true;
+            if (((UpperMiddle.Text == Middle.Text) && (Middle.Text == LowerMiddle.Text)) && LowerMiddle.Enabled == false)
+                wincondition = true;
+            if (((UpperRight.Text == MiddleRight.Text) && (MiddleRight.Text == BottomRight.Text)) && BottomRight.Enabled == false)
+                wincondition = true;
+            if (((UpperRight.Text == Middle.Text) && (Middle.Text == BottomLeft.Text)) && BottomLeft.Enabled == false)
+                wincondition = true;
+            if (((TopLeft.Text == Middle.Text) && (Middle.Text == BottomRight.Text)) && TopLeft.Enabled == false)
+                wincondition = true;
+            if (wincondition == true)
+                Congratulations.Text = "Congratulations!";
         }
         private void URButtonClick(object sender, EventArgs e)
         {
@@ -43,6 +62,25 @@ namespace TicTacToe
                 player = true;
             else
                 player = false;
+            bool wincondition = false;
+            if (((TopLeft.Text == UpperMiddle.Text) && (UpperMiddle.Text == UpperRight.Text)) && UpperRight.Enabled == false)
+                wincondition = true;
+            if ((LeftMid.Text == Middle.Text) && (Middle.Text == MiddleRight.Text))
+                wincondition = true;
+            if (((BottomLeft.Text == LowerMiddle.Text) && (LowerMiddle.Text == BottomRight.Text)) && BottomRight.Enabled == false)
+                wincondition = true;
+            if (((TopLeft.Text == LeftMid.Text) && (LeftMid.Text == BottomLeft.Text)) && BottomLeft.Enabled == false)
+                wincondition = true;
+            if (((UpperMiddle.Text == Middle.Text) && (Middle.Text == LowerMiddle.Text)) && LowerMiddle.Enabled == false)
+                wincondition = true;
+            if (((UpperRight.Text == MiddleRight.Text) && (MiddleRight.Text == BottomRight.Text)) && BottomRight.Enabled == false)
+                wincondition = true;
+            if (((UpperRight.Text == Middle.Text) && (Middle.Text == BottomLeft.Text)) && BottomLeft.Enabled == false)
+                wincondition = true;
+            if (((TopLeft.Text == Middle.Text) && (Middle.Text == BottomRight.Text)) && TopLeft.Enabled == false)
+                wincondition = true;
+            if (wincondition == true)
+                Congratulations.Text = "Congratulations!";
         }
         private void MLButtonClick(object sender, EventArgs e)
         {
@@ -55,6 +93,25 @@ namespace TicTacToe
                 player = true;
             else
                 player = false;
+            bool wincondition = false;
+            if (((TopLeft.Text == UpperMiddle.Text) && (UpperMiddle.Text == UpperRight.Text)) && UpperRight.Enabled == false)
+                wincondition = true;
+            if ((LeftMid.Text == Middle.Text) && (Middle.Text == MiddleRight.Text))
+                wincondition = true;
+            if (((BottomLeft.Text == LowerMiddle.Text) && (LowerMiddle.Text == BottomRight.Text)) && BottomRight.Enabled == false)
+                wincondition = true;
+            if (((TopLeft.Text == LeftMid.Text) && (LeftMid.Text == BottomLeft.Text)) && BottomLeft.Enabled == false)
+                wincondition = true;
+            if (((UpperMiddle.Text == Middle.Text) && (Middle.Text == LowerMiddle.Text)) && LowerMiddle.Enabled == false)
+                wincondition = true;
+            if (((UpperRight.Text == MiddleRight.Text) && (MiddleRight.Text == BottomRight.Text)) && BottomRight.Enabled == false)
+                wincondition = true;
+            if (((UpperRight.Text == Middle.Text) && (Middle.Text == BottomLeft.Text)) && BottomLeft.Enabled == false)
+                wincondition = true;
+            if (((TopLeft.Text == Middle.Text) && (Middle.Text == BottomRight.Text)) && TopLeft.Enabled == false)
+                wincondition = true;
+            if (wincondition == true)
+                Congratulations.Text = "Congratulations!";
         }
         private void MButtonClick(object sender, EventArgs e)
         {
@@ -67,6 +124,25 @@ namespace TicTacToe
                 player = true;
             else
                 player = false;
+            bool wincondition = false;
+            if (((TopLeft.Text == UpperMiddle.Text) && (UpperMiddle.Text == UpperRight.Text)) && UpperRight.Enabled == false)
+                wincondition = true;
+            if ((LeftMid.Text == Middle.Text) && (Middle.Text == MiddleRight.Text))
+                wincondition = true;
+            if (((BottomLeft.Text == LowerMiddle.Text) && (LowerMiddle.Text == BottomRight.Text)) && BottomRight.Enabled == false)
+                wincondition = true;
+            if (((TopLeft.Text == LeftMid.Text) && (LeftMid.Text == BottomLeft.Text)) && BottomLeft.Enabled == false)
+                wincondition = true;
+            if (((UpperMiddle.Text == Middle.Text) && (Middle.Text == LowerMiddle.Text)) && LowerMiddle.Enabled == false)
+                wincondition = true;
+            if (((UpperRight.Text == MiddleRight.Text) && (MiddleRight.Text == BottomRight.Text)) && BottomRight.Enabled == false)
+                wincondition = true;
+            if (((UpperRight.Text == Middle.Text) && (Middle.Text == BottomLeft.Text)) && BottomLeft.Enabled == false)
+                wincondition = true;
+            if (((TopLeft.Text == Middle.Text) && (Middle.Text == BottomRight.Text)) && TopLeft.Enabled == false)
+                wincondition = true;
+            if (wincondition == true)
+                Congratulations.Text = "Congratulations!";
         }
         private void MRButtonClick(object sender, EventArgs e)
         {
@@ -79,6 +155,25 @@ namespace TicTacToe
                 player = true;
             else
                 player = false;
+            bool wincondition = false;
+            if (((TopLeft.Text == UpperMiddle.Text) && (UpperMiddle.Text == UpperRight.Text)) && UpperRight.Enabled == false)
+                wincondition = true;
+            if ((LeftMid.Text == Middle.Text) && (Middle.Text == MiddleRight.Text))
+                wincondition = true;
+            if (((BottomLeft.Text == LowerMiddle.Text) && (LowerMiddle.Text == BottomRight.Text)) && BottomRight.Enabled == false)
+                wincondition = true;
+            if (((TopLeft.Text == LeftMid.Text) && (LeftMid.Text == BottomLeft.Text)) && BottomLeft.Enabled == false)
+                wincondition = true;
+            if (((UpperMiddle.Text == Middle.Text) && (Middle.Text == LowerMiddle.Text)) && LowerMiddle.Enabled == false)
+                wincondition = true;
+            if (((UpperRight.Text == MiddleRight.Text) && (MiddleRight.Text == BottomRight.Text)) && BottomRight.Enabled == false)
+                wincondition = true;
+            if (((UpperRight.Text == Middle.Text) && (Middle.Text == BottomLeft.Text)) && BottomLeft.Enabled == false)
+                wincondition = true;
+            if (((TopLeft.Text == Middle.Text) && (Middle.Text == BottomRight.Text)) && TopLeft.Enabled == false)
+                wincondition = true;
+            if (wincondition == true)
+                Congratulations.Text = "Congratulations!";
         }
         private void BLButtonClick(object sender, EventArgs e)
         {
@@ -91,6 +186,25 @@ namespace TicTacToe
                 player = true;
             else
                 player = false;
+            bool wincondition = false;
+            if (((TopLeft.Text == UpperMiddle.Text) && (UpperMiddle.Text == UpperRight.Text)) && UpperRight.Enabled == false)
+                wincondition = true;
+            if ((LeftMid.Text == Middle.Text) && (Middle.Text == MiddleRight.Text))
+                wincondition = true;
+            if (((BottomLeft.Text == LowerMiddle.Text) && (LowerMiddle.Text == BottomRight.Text)) && BottomRight.Enabled == false)
+                wincondition = true;
+            if (((TopLeft.Text == LeftMid.Text) && (LeftMid.Text == BottomLeft.Text)) && BottomLeft.Enabled == false)
+                wincondition = true;
+            if (((UpperMiddle.Text == Middle.Text) && (Middle.Text == LowerMiddle.Text)) && LowerMiddle.Enabled == false)
+                wincondition = true;
+            if (((UpperRight.Text == MiddleRight.Text) && (MiddleRight.Text == BottomRight.Text)) && BottomRight.Enabled == false)
+                wincondition = true;
+            if (((UpperRight.Text == Middle.Text) && (Middle.Text == BottomLeft.Text)) && BottomLeft.Enabled == false)
+                wincondition = true;
+            if (((TopLeft.Text == Middle.Text) && (Middle.Text == BottomRight.Text)) && TopLeft.Enabled == false)
+                wincondition = true;
+            if (wincondition == true)
+                Congratulations.Text = "Congratulations!";
         }
         private void LMButtonClick(object sender, EventArgs e)
         {
@@ -103,6 +217,25 @@ namespace TicTacToe
                 player = true;
             else
                 player = false;
+            bool wincondition = false;
+            if (((TopLeft.Text == UpperMiddle.Text) && (UpperMiddle.Text == UpperRight.Text)) && UpperRight.Enabled == false)
+                wincondition = true;
+            if ((LeftMid.Text == Middle.Text) && (Middle.Text == MiddleRight.Text))
+                wincondition = true;
+            if (((BottomLeft.Text == LowerMiddle.Text) && (LowerMiddle.Text == BottomRight.Text)) && BottomRight.Enabled == false)
+                wincondition = true;
+            if (((TopLeft.Text == LeftMid.Text) && (LeftMid.Text == BottomLeft.Text)) && BottomLeft.Enabled == false)
+                wincondition = true;
+            if (((UpperMiddle.Text == Middle.Text) && (Middle.Text == LowerMiddle.Text)) && LowerMiddle.Enabled == false)
+                wincondition = true;
+            if (((UpperRight.Text == MiddleRight.Text) && (MiddleRight.Text == BottomRight.Text)) && BottomRight.Enabled == false)
+                wincondition = true;
+            if (((UpperRight.Text == Middle.Text) && (Middle.Text == BottomLeft.Text)) && BottomLeft.Enabled == false)
+                wincondition = true;
+            if (((TopLeft.Text == Middle.Text) && (Middle.Text == BottomRight.Text)) && TopLeft.Enabled == false)
+                wincondition = true;
+            if (wincondition == true)
+                Congratulations.Text = "Congratulations!";
         }
         private void BRButtonClick(object sender, EventArgs e)
         {
@@ -115,6 +248,25 @@ namespace TicTacToe
                 player = true;
             else
                 player = false;
+            bool wincondition = false;
+            if (((TopLeft.Text == UpperMiddle.Text) && (UpperMiddle.Text == UpperRight.Text)) && UpperRight.Enabled == false)
+                wincondition = true;
+            if ((LeftMid.Text == Middle.Text) && (Middle.Text == MiddleRight.Text))
+                wincondition = true;
+            if (((BottomLeft.Text == LowerMiddle.Text) && (LowerMiddle.Text == BottomRight.Text)) && BottomRight.Enabled == false)
+                wincondition = true;
+            if (((TopLeft.Text == LeftMid.Text) && (LeftMid.Text == BottomLeft.Text)) && BottomLeft.Enabled == false)
+                wincondition = true;
+            if (((UpperMiddle.Text == Middle.Text) && (Middle.Text == LowerMiddle.Text)) && LowerMiddle.Enabled == false)
+                wincondition = true;
+            if (((UpperRight.Text == MiddleRight.Text) && (MiddleRight.Text == BottomRight.Text)) && BottomRight.Enabled == false)
+                wincondition = true;
+            if (((UpperRight.Text == Middle.Text) && (Middle.Text == BottomLeft.Text)) && BottomLeft.Enabled == false)
+                wincondition = true;
+            if (((TopLeft.Text == Middle.Text) && (Middle.Text == BottomRight.Text)) && TopLeft.Enabled == false)
+                wincondition = true;
+            if (wincondition == true)
+                Congratulations.Text = "Congratulations!";
         }
         private void ULButtonClick(object sender, EventArgs e)
         {
@@ -127,28 +279,25 @@ namespace TicTacToe
                 player = true;
             else
                 player = false;
-        }
-        public void Winner()
-        {
-           bool wincondition = false;
-            if (wincondition == true)
-                Congratulations.Text = "Congratulations!";
-            if ((TopLeft.Text == UpperMiddle.Text) && (UpperMiddle.Text == UpperRight.Text))
+            bool wincondition = false;
+            if (((TopLeft.Text == UpperMiddle.Text) && (UpperMiddle.Text == UpperRight.Text))&& UpperRight.Enabled == false)
                 wincondition = true;
             if ((LeftMid.Text == Middle.Text) && (Middle.Text == MiddleRight.Text))
                 wincondition = true;
-            if ((BottomLeft.Text == LowerMiddle.Text) && (LowerMiddle.Text == BottomRight.Text))
+            if (((BottomLeft.Text == LowerMiddle.Text) && (LowerMiddle.Text == BottomRight.Text)) && BottomRight.Enabled == false)
                 wincondition = true;
-            if ((TopLeft.Text == LeftMid.Text) && (LeftMid.Text == BottomLeft.Text))
+            if (((TopLeft.Text == LeftMid.Text) && (LeftMid.Text == BottomLeft.Text)) && BottomLeft.Enabled == false)
                 wincondition = true;
-            if ((UpperMiddle.Text == Middle.Text) && (Middle.Text == LowerMiddle.Text))
+            if (((UpperMiddle.Text == Middle.Text) && (Middle.Text == LowerMiddle.Text)) && LowerMiddle.Enabled == false)
                 wincondition = true;
-            if ((UpperRight.Text == MiddleRight.Text) && (MiddleRight.Text == BottomRight.Text))
+            if (((UpperRight.Text == MiddleRight.Text) && (MiddleRight.Text == BottomRight.Text)) && BottomRight.Enabled == false)
                 wincondition = true;
-            if ((UpperRight.Text == Middle.Text) && (Middle.Text == BottomLeft.Text))
+            if (((UpperRight.Text == Middle.Text) && (Middle.Text == BottomLeft.Text)) && BottomLeft.Enabled == false)
                 wincondition = true;
-            if ((TopLeft.Text == Middle.Text) && (Middle.Text == BottomRight.Text))
+            if (((TopLeft.Text == Middle.Text) && (Middle.Text == BottomRight.Text)) && TopLeft.Enabled == false)
                 wincondition = true;
+            if (wincondition == true)
+                Congratulations.Text = "Congratulations!";
         }
     }
 }
