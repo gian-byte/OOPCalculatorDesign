@@ -16,7 +16,6 @@ namespace Legit22oOOP
         string operation = "";
         string Answer1 = "";
         bool DecimalClicked = false;
-        bool OperationClicked = false; 
         public Calculator()
         {
             InitializeComponent();
@@ -34,7 +33,7 @@ namespace Legit22oOOP
             Answer.Text = "-" + Answer.Text;
             operation = "--";
             bool NegativeSignClicked = true;
-            if (NegativeSignClicked = true)
+            if (NegativeSignClicked == true)
                 NegativeSign.Enabled = false;
         }
         private void DecimalClick(object sender, EventArgs e)
@@ -44,7 +43,7 @@ namespace Legit22oOOP
             DecimalClicked = true;
             if (Answer.Text == "0")
                 Answer.Clear();
-            if (DecimalClicked = true)
+            if (DecimalClicked == true)
                 Decimal.Enabled = false;
         }
         private void ClearClick(object sender, EventArgs e)
@@ -63,8 +62,10 @@ namespace Legit22oOOP
                 Answer.Text = (float.Parse(Answer.Text) * float.Parse(Answer1)).ToString();
             if (operation == "/")
                 Answer.Text = (float.Parse(Answer1) / float.Parse(Answer.Text)).ToString();
-            Decimal.Enabled = true;
-            NegativeSign.Enabled = true;
+            Decimal.Enabled = false;
+            NegativeSign.Enabled = false;
+            if (float.Parse(Answer.Text) < 0)
+                NegativeSign.Enabled = false;
         }
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -73,7 +74,7 @@ namespace Legit22oOOP
         {
             operation = "+";
             bool OperationClicked = true;
-            if (OperationClicked = true)
+            if (OperationClicked == true)
                 Answer1 = Answer.Text;
             Answer.Clear();
             Decimal.Enabled = true;
@@ -83,7 +84,7 @@ namespace Legit22oOOP
         {
             operation = "-";
             bool OperationClicked = true;
-            if (OperationClicked = true)
+            if (OperationClicked == true)
                 Answer1 = Answer.Text;
             Answer.Clear();
             Decimal.Enabled = true;
@@ -93,7 +94,7 @@ namespace Legit22oOOP
         {
             operation = "*";
             bool OperationClicked = true;
-            if (OperationClicked = true)
+            if (OperationClicked == true)
                 Answer1 = Answer.Text;
             Answer.Clear();
             Decimal.Enabled = true;
@@ -103,12 +104,11 @@ namespace Legit22oOOP
         {
             operation = "/";
             bool OperationClicked = true;
-            if (OperationClicked = true)
+            if (OperationClicked == true)
                 Answer1 = Answer.Text;
             Answer.Clear();
             Decimal.Enabled = true;
             NegativeSign.Enabled = true;
-            
         }
     }
 }
